@@ -14,182 +14,212 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Brand</a>
-                </div>
+                        <a class="navbar-brand" href="#">Brand</a>
+                    </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="navbar-form navbar-left">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
                 </div>
-                <!-- /.navbar-collapse -->
+                <!-- /.container-fluid -->
+            </nav>
+        </header>
+        <div class="row">
+
+            <div class="col-md-3">
+                <aside class="">
+                    <section>
+                        <article id="profile">
+                            <img src="static/images/imageProfile.jpg" alt="image profil" class="img-responsive">
+                            <img src="static/images/profilePic.jpg" alt="vieux" class="img-responsive">
+                            <h2>Jean-Mich Wang</h2>
+                            <p>I wish i was a little bit taller, wish i was a baller, wish i had a girl... also</p>
+                            <table>
+                                <tr>
+                                    <th>Friends</th>
+                                    <th>Enemies</th>
+                                </tr>
+                                <tr>
+                                    <td>12M</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </article>
+                        <article>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    About <a href="#">edit</a>
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="liste1">
+                                    <li>Went to <a href="#">Oh, Canada</a></li>
+                                    <li>Became friends with <a href="#">Obama</a></li>
+                                    <li>Worked at <a href="#">Github</a></li>
+                                    <li>Lives in <a href="#">San Francisco, CA</a></li>
+                                    <li>From <a href="#">Seattle, WA</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Photos <a href="#">edit</a>
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="liste2">
+                                    <li><img src="static/images/photo1.jpg" alt="photo1" class="img-responsive"></li>
+                                    <li><img src="static/images/photo2.jpg" alt="photo2" class="img-responsive"></li>
+                                    <li><img src="static/images/photo3.jpg" alt="photo3" class="img-responsive"></li>
+                                    <li><img src="static/images/photo4.jpg" alt="photo4" class="img-responsive"></li>
+                                    <li><img src="static/images/photo5.jpg" alt="photo5" class="img-responsive"></li>
+                                    <li><img src="static/images/photo6.jpg" alt="photo6" class="img-responsive"></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </section>
+                </aside>
             </div>
-            <!-- /.container-fluid -->
-        </nav>
-    </header>
 
-    <aside class="">
-        <section>
-            <article>
-                <img src="static/images/imageProfile.jpg" alt="image profil" class="img-responsive">
-                <img src="static/images/profilePic.jpg" alt="vieux" class="img-responsive">
-                <h2>Jean-Mich Wang</h2>
-                <p>I wish i was a little bit taller, wish i was a baller, wish i had a girl... also</p>
-                <table>
-                    <tr>
-                        <th>Friends</th>
-                        <th>Enemies</th>
-                    </tr>
-                    <tr>
-                        <td>12M</td>
-                        <td>1</td>
-                    </tr>
-                </table>
-            </article>
-            <article>
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        About <a href="#">edit</a>
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <li>Went to <a href="#">Oh, Canada</a></li>
-                        <li>Became friends with <a href="#">Obama</a></li>
-                        <li>Worked at <a href="#">Github</a></li>
-                        <li>Lives in <a href="#">San Francisco, CA</a></li>
-                        <li>From <a href="#">Seattle, WA</a></li>
-                    </ul>
-                </div>
-            </article>
-            <article>
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        Photos <a href="#">edit</a>
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <li><img src="static/images/photo1.jpg" alt="photo1"></li>
-                        <li><img src="static/images/photo2.jpg" alt="photo2"></li>
-                        <li><img src="static/images/photo3.jpg" alt="photo3"></li>
-                        <li><img src="static/images/photo4.jpg" alt="photo4"></li>
-                        <li><img src="static/images/photo5.jpg" alt="photo5"></li>
-                        <li><img src="static/images/photo6.jpg" alt="photo6"></li>
-                    </ul>
-                </div>
-            </article>
-        </section>
-    </aside>
+            <div class="col-md-6">
+                <main>
+                    <section>
+                        <input type="text" name="" value="" placeholder="Message">
+                    </section>
 
-    <main>
-        <section>
-            <input type="text" name="" value="" placeholder="Message">
-        </section>
-        <article>
-            <img src="static/images/profilePic.jpg" alt="vieux">
-            <h3>Jean-Mich Wang</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="static/images/main1.jpg" alt="main1">
-            <img src="static/images/main2.jpg" alt="main2">
-            <img src="static/images/main3.jpg" alt="main3">
-            <img src="static/images/main4.jpg" alt="main4">
-            <section class="comment">
-                <img src="static/images/people2.jpg" alt="psycho">
-                <h3>Psy Hai Ko</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </section>
-            <section class="comment">
-                <img src="static/images/people2.jpg" alt="juan">
-                <h3>Juandarov</h3>
-                <p>Wesh ma men</p>
-            </section>
-        </article>
-        <article class="">
-            <img src="static/images/people2.jpg" alt="psycho">
-            <h3>Psy Hai Ko</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </article>
-        <article class="">
-            <img src="static/images/people2.jpg" alt="juan">
-            <h3>Juandarov</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="static/images/main5.jpg" alt="main5">
-            <section class="comment">
-                <img src="static/images/profilePic.jpg" alt="vieux">
-                <h3>Jean-Mich Wang</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-        </article>
-    </main>
+                    <article>
+                        <div class="row">
 
-    <aside class="">
-        <section>
-            <article>
-                <h2>Sponsored</h2>
-                <img src="static/images/sponsored.jpg" alt="sponsored">
-                <h4>It might be time to visit Iceland</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <button type="button" name="button">Buy a ticket</button>
-            </article>
-            <article>
-                <h2>Likes <a href="#">View all</a></h2>
-                <section class="twitter">
-                    <img src="static/images/people2.jpg" alt="psycho">
-                    <h3>Psy Hai Ko</h3>
-                    <button type="button" name="button"></button>
-                </section>
-                <section class="twitter">
-                    <img src="static/images/people3.jpg" alt="juan">
-                </section>
-            </article>
-            <article></article>
-        </section>
-    </aside>
+                            <div class="col-md-2">
+                                <img src="static/images/profilePic.jpg" alt="vieux" class="img-responsive id">
+                            </div>
 
+                            <div class="col-md-10">
+                                <h3>Jean-Mich Wang</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <img src="static/images/main1.jpg" alt="main1">
+                                    <img src="static/images/main2.jpg" alt="main2">
+                                    <img src="static/images/main3.jpg" alt="main3">
+                                    <img src="static/images/main4.jpg" alt="main4">
+                            </div>
+                        </div>
 
+                                <section class="comment">
+                                    <img src="static/images/people2.jpg" alt="psycho" class="img-responsive id">
+                                    <h3>Psy Hai Ko</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </section>
+                                <section class="comment">
+                                    <img src="static/images/people3.jpg" alt="juan" class="img-responsive id">
+                                    <h3>Juandarov</h3>
+                                    <p>Wesh ma men</p>
+                                </section>
+                    </article>
+
+                    <article class="">
+                        <img src="static/images/people2.jpg" alt="psycho" class="img-responsive id">
+                        <h3>Psy Hai Ko</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </article>
+                    <article class="">
+                        <img src="static/images/people3.jpg" alt="juan" class="img-responsive id">
+                        <h3>Juandarov</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <img src="static/images/main5.jpg" alt="main5" class="img-responsive">
+                        <section class="comment">
+                            <img src="static/images/profilePic.jpg" alt="vieux" class="img-responsive id">
+                            <h3>Jean-Mich Wang</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </section>
+                    </article>
+                </main>
+            </div>
+
+            <div class="col-md-3">
+                <aside class="">
+                    <section>
+                        <article>
+                            <h2>Sponsored</h2>
+                            <img src="static/images/sponsored.jpg" alt="sponsored" class="img-responsive">
+                            <h4>It might be time to visit Iceland</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <button type="button" name="button">Buy a ticket</button>
+                        </article>
+                        <article>
+                            <h2>Likes <a href="#">View all</a></h2>
+                            <section class="twitter">
+                                <img src="static/images/people2.jpg" alt="psycho" class="img-responsive">
+                                <h3>Psy Hai Ko</h3>
+                                <button type="button" name="button">Follow</button>
+                            </section>
+                            <section class="twitter">
+                                <img src="static/images/people3.jpg" alt="juan" class="img-responsive">
+                                <h3>Juandarov</h3>
+                                <button type="button" name="button">follow</button>
+                            </section>
+                            <div class="minifooter1">
+                                Dave really likes these nerds, no one knows why though.
+                            </div>
+                        </article>
+                        <article>
+                            (c) 2017 bootstrap Juan Et Karina
+                        </article>
+                    </section>
+                </aside>
+            </div>
+
+        </div>
+    </div>
 
     <script src="static/external/jquery/dist/jquery.min.js"></script>
     <script src="static/external/bootstrap/dist/js/bootstrap.min.js"></script>

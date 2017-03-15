@@ -1,3 +1,16 @@
-h1 {
-    background-image: url(../images/brand-white.png);
+// IMPORTS
+@import "aside1";
+@import "main";
+
+.container {
+    padding: 0;
+}
+
+/*NAVBAR*/
+.navbar-header {
+    background-color: #3097D1;
+}
+
+.navbar {
+    margin-bottom: 0;
 }

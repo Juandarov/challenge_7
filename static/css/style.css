@@ -1,5 +1,36 @@
-h1 {
-  background-image: url(../images/brand-white.png);
+#profile {
+  text-align: center;
+}
+
+#profile > img:nth-child(2) {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  border: solid 5px white;
+  border-radius: 50%;
+  margin-top: -80px;
+}
+
+#dropdownMenu1, #dropdownMenu2, #liste1, #liste2 {
+  width: 100%;
+}
+
+.id {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.container {
+  padding: 0;
+}
+
+/*NAVBAR*/
+.navbar-header {
+  background-color: #3097D1;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
